@@ -1,12 +1,29 @@
 /* Imports
 ********************************************************************* */
+@import url('https://fonts.googleapis.com/css?family=Hind+Vadodara');
 
 /* Base Styles
 ********************************************************************* */
 html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.5em;
+	line-height: 1.6;
+	font-weight: 400;
+	font-family: 'Hind Vadodara', sans-serif;
+	color: #222;
 }
 
-body {
+/* Containers & Columns
+********************************************************************* */ 
+.container {
+	position: relative;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+	box-sizing: border-box;
 }
 
 /* Media Queries
@@ -18,31 +35,49 @@ body {
 /* Header Section
 ********************************************************************* */
 header {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+ 	width: 100%%;
+ 	height: 100vh;
+ 	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("../images/background3.jpg") no-repeat fixed center;
+	background-size: cover;
+	color: #fff;	
 }
 
 /* About Section
 ********************************************************************* */
 #aboutme {
+	padding: 100px 0 50px 0;
 }
 
 /* Qualification Section
 ********************************************************************* */
 #qualifications {
+	padding: 100px 0 100px 0;
 }
 
 /* Quote Section
 ********************************************************************* */
 #quote1 {
+	padding: 100px 0 100px 0;
 }
 
 /* Experiences Section
 ********************************************************************* */
 #experiences {
+	padding: 100px 0 100px 0;
 }
 
 /* Contact Section
 ********************************************************************* */
 #contact {
+	padding: 100px 0 100px 0;
 }
 
 /* Footer Section
@@ -55,4 +90,3 @@ footer {
 
 /* Misc
 ********************************************************************* */
-
